@@ -10,12 +10,17 @@
         body {
         background-image: url(images/background\ website\ img.png);
         background-repeat: no-repeat;
+        background-size: cover;
+         background-attachment: fixed;
+         
         }
     </style>
   </head>
   <body>
     <main>
-      <div>
+    
+      <div class="container">
+        <div class="d-flex col-8 pt-5 mt-5 float-end justify-content-start me-5">
         <form>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -32,6 +37,7 @@
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+      </div>
       </div>
     </main>
   </body>
