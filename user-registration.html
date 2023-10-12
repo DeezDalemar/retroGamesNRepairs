@@ -1,86 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Retro Games n' Repair</title>
-    <link rel="stylesheet" href="css/bootstrap.css" />
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Retro Games n' Repair</title>
+      <link rel="stylesheet" href="css/bootstrap.css" />
 
-    <style>
-      body {
-        background-image: url(images/background\ website\ img.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-      }
-    </style>
-  </head>
-  <body>
-    <header class="p-1 mb-3 border-bottom bg-dark">
-      <div class="container">
-        <div class="text-center">
-          <h1>Sign In</h1>
-        </div>
-      </div>
-    </header>
+      <style>
+         body {
+            background-image: url(images/background\ website\ img.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+         }
+      </style>
+   </head>
+   <body>
+      <header class="p-1 mb-3 border-bottom bg-dark">
+         <div class="container">
+            <div class="text-center">
+               <h1 class="text-light">Sign Up</h1>
+            </div>
+         </div>
+      </header>
 
-    <main>
-      <div class="container">
-        <div class="d-flex col-8 mt-5 float-end justify-content-start me-5">
-          <form>
-            <div class="mb-3">
-              <label for="inputEmail" class="form-label"> New Email Address*</label>
-              <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" />
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else. (Maybe)</div>
+      <main>
+         <div class="container">
+            <div class="d-flex col-8 mt-5 float-end justify-content-start me-5">
+               <form>
+                  <div class="mb-3">
+                     <label for="inputEmail" class="form-label text-black"> New Email Address*</label>
+                     <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" />
+                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else. (Maybe)</div>
+                  </div>
+                  <div class="mb-3">
+                     <label for="inputUserName" class="form-label text-black">New Username*</label>
+                     <input type="username" class="form-control" id="newUserName" />
+                  </div>
+                  <div class="mb-3">
+                     <label for="exampleInputPassword1" class="form-label text-black">New Password*</label>
+                     <input type="password" class="form-control" id="exampleInputPassword1" />
+                  </div>
+                  <div class="mb-3">
+                     <label for="exampleInputPassword1" class="form-label text-black">Confirm New Password*</label>
+                     <input type="password" class="form-control" id="exampleInputPassword1" />
+                  </div>
+                  <div></div>
+                  <div>
+                     <br />
+                     <h3 class="text-black-50">How Did You Hear About Us?</h3>
+                     <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                        <label class="form-check-label text-black" for="flexRadioDefault1">
+                           Search Engine (Google, Yahoo, Bing, etc.)
+                        </label>
+                     </div>
+                     <div class="form-check">
+                        <input
+                           class="form-check-input"
+                           type="radio"
+                           name="flexRadioDefault"
+                           id="flexRadioDefault2"
+                           checked
+                        />
+                        <label class="form-check-label text-black" for="flexRadioDefault2">
+                           Recommended by a friend
+                        </label>
+                     </div>
+                     <div class="form-check">
+                        <input
+                           class="form-check-input"
+                           type="radio"
+                           name="flexRadioDefault"
+                           id="flexRadioDefault2"
+                           checked
+                        />
+                        <label class="form-check-label text-black" for="flexRadioDefault2"> Social Media </label>
+                     </div>
+                     <div class="form-check">
+                        <input
+                           class="form-check-input"
+                           type="radio"
+                           name="flexRadioDefault"
+                           id="flexRadioDefault2"
+                           checked
+                        />
+                        <label class="form-check-label text-black" for="flexRadioDefault2"> Telivision Ad </label>
+                     </div>
+                     <div class="form-check">
+                        <input
+                           class="form-check-input"
+                           type="radio"
+                           name="flexRadioDefault"
+                           id="flexRadioDefault2"
+                           checked
+                        />
+                        <label class="form-check-label text-black" for="flexRadioDefault2"> Other.... </label>
+                     </div>
+                     <br />
+                     <a href="index.html" class="mb-3">
+                        <button type="button" class="btn btn-primary">Submit</button>
+                     </a>
+                  </div>
+                  <br />
+                  <a class="text-decoration-none text-decoration-underline text-center" href="user-log-in.html">Already Have a Account</a>
+               </form>
             </div>
-            <div class="mb-3">
-              <label for="inputUserName" class="form-label">New Username*</label>
-              <input type="username" class="form-control" id="newUserName" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">New Password*</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Confirm New Password*</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" />
-            </div>
-            <div></div>
-            <div>
-              <br />
-              <h3 class="text-black-50">How Did You Hear About Us?</h3>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                <label class="form-check-label" for="flexRadioDefault1">
-                  Search Engine (Google, Yahoo, Bing, etc.)
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                <label class="form-check-label" for="flexRadioDefault2"> Recommended by a friend </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                <label class="form-check-label" for="flexRadioDefault2"> Social Media </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                <label class="form-check-label" for="flexRadioDefault2"> Telivision Ad </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                <label class="form-check-label" for="flexRadioDefault2"> Other.... </label>
-              </div>
-              <br />
-              <a href="index.html" class="mb-3">
-                <button type="button" class="btn btn-primary">Submit</button>
-              </a>
-            </div>
-            <br />
-            <a href="user-log-in.html">Already Have a Account</a>
-          </form>
-        </div>
-      </div>
-    </main>
-  </body>
+         </div>
+      </main>
+   </body>
 </html>
