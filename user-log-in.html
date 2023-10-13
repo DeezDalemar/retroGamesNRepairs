@@ -19,7 +19,7 @@
       <header class="p-1 mb-3 border-bottom bg-dark">
          <div class="container">
             <div class="text-center">
-               <h1>Login</h1>
+               <h1 class="text-light">Login</h1>
             </div>
          </div>
       </header>
@@ -32,10 +32,10 @@
                   </a>
 
                   <hr />
-                  <div class="mb-5">
-                     <label for="loginEmail" class="form-label text-black"> Enter Email</label>
+                  <div class="mb-2">
+                     <label for="loginEmail" class="form-label text-black"> Enter Email*</label>
                      <input type="emailLogin" class="form-control" id="emailLogin" aria-describedby="emailHelp" />
-                     <div id="emailHelp" class="form-text">Enter Your Email</div>
+                     <div id="emailHelp" class="form-text">Enter Your Email (Required)</div>
                   </div>
                   <div class="mb-2">
                      <label for="loginPassword" class="form-label text-black"> Enter Password</label>
@@ -46,6 +46,11 @@
                         aria-describedby="passwordHelp"
                      />
                      <div id="passwordHelp" class="form-text">Enter Your Password</div>
+                  </div>
+                  <div class="mb-5">
+                     <label for="loginSSN" class="form-label text-black"> Enter SSN*</label>
+                     <input type="emailLogin" class="form-control" id="emailLogin" aria-describedby="emailHelp" />
+                     <div id="emailHelp" class="form-text">Enter Social Security Number (Required)</div>
                   </div>
                   <div class="mb-5 form-check text-start">
                      <input type="checkbox" class="form-check-input" id="exampleCheck1" />
@@ -60,7 +65,7 @@
                   <br />
                   <br />
                   <br />
-                  <a class="text-decoration-none text-black text-decoration-underline" href="no-password.html"
+                  <a class="text-decoration-none text-light text-decoration-underline" href="no-password.html"
                      >Forgot Password?</a
                   >
                </form>
